@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+
+}
+
+.common-color {
+    color: #FF42A5;
+}
+
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+nav li a {
+    color: #3C354F;
+}
+
+.music {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+   
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner-content {
+    background-color: rgba(241, 68, 174, 0.030);
+}
+
+.banner-play {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.banner-goat {
+    text-align: center;
+    font-size: 6rem;
+    color: #8758F1;
+}
+
+.banner-discription {
+    color: #534C64;
+
+    font-size: 1 rem;
+    text-align: center;
+}
+
+.banner-sign {
+    padding: 21px 40px;
+    background-color: #FF42A5;
+    margin-left: 2rem;
+}
+
+.banner-go {
+    padding: 21px 40px;
+    background-color: #4EC5F7;
+    margin-right: 2rem;
+
+}
+
+.gaming-discription {
+    margin: 0 632px;
+
+}
+
+.gaming-heading {
+    font-size: 48px;
+
+}
+
+.gaming-paragraph {
+    color: #534C64;
+    font-size: 18px;
+}
+
+.funny-color {
+    color: #8758F1;
+}
+
+.gaming-pictures {
+    margin: 0 240px;
+
+}
+.anywhere {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+
+.anywhere-pictures {
+   
+    margin: 10px 240px;
+    width: 200px;
+}
+.big-picture{
+    position: absolute;
+    
+}
+
+.small-pictures {
+    
+   position: relative;
+   left: 400px; 
+   top: -130px;
+
+    
+}
+
+
+
+
+.anywhere-heading {
+    font-size: 48px;
+    color: #0B0223;
+    
+}
+
+.anywhere-new {
+    color: #8758F1;
+}
+
+.anywhere-discription {
+    color: #534C64;
+    font-size: 18px;
+}
+
+.last-part {
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.arcade-class {
+   background-color: white;
+   
+   display: flex;
+   text-align: center;
+   
+
+}
+
+.educational {
+    display: flex;
+}
+
+.more {
+    display: flex;
+}
+.last-footer-part{
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
+        padding: 20px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-sign {
+        margin-left: 12rem;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+}
